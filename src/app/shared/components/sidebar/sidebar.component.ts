@@ -15,4 +15,8 @@ export class SidebarComponent {
     console.log(this.gifsService.tagsHistory);
   }
 
+  public searchTarget( tag: string ) {
+    console.log("lol");
+    this.gifsService.searchTag( tag );
+  }
 }
